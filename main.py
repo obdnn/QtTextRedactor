@@ -12,7 +12,7 @@ if __name__ == "__main__":
 
     QLocale.setDefault(QLocale(QLocale.Language.English, QLocale.Country.UnitedStates))
 
-    icon_path = r'C:\Users\nicki\PycharmProjects\TextRedactor\public\Logo_Ob.png'
+    icon_path = 'public/Logo_Ob.png'
     app.setWindowIcon(QIcon(icon_path))
 
     engine = QQmlApplicationEngine()
